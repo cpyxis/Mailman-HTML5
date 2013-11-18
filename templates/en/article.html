@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
+	<meta name="robots" content="index,nofollow">
+	<title>$subject_html</title>
+</head>
+
+<body>
+	<nav>$encoding $prev $next</nav>
+	<h1>$subject_html</h1>
+	<p>
+		<b>$author_html</b> <a href="mailto:$%7Bemail_url%7D?Subject=$%7Bsubject_url%7D&amp;In-Reply-To=$%7Bin_reply_to_url%7D" title="$subject_html">$email_html</a><br>
+		<i>$datestr_html</i>
+	</p>
+	<nav>
+		<ul>
+			$prev_wsubj $next_wsubj
+			<li><b>Messages sorted by:</b>
+			<a href="date.html#$sequence">[ date ] </a>
+			<a href="thread.html#$sequence">[ thread ] </a>
+			<a href="subject.html#$sequence">[ subject ] </a>
+			<a href="author.html#$sequence">[ author ]</a>
+			</li>
+		</ul>
+	</nav>
+
+	<hr>
+	<article>$body</article>
+	<hr>
+
+	<nav>
+		<ul>
+			$prev_wsubj $next_wsubj
+			<li><b>Messages sorted by:</b>
+			<a href="date.html#$sequence">[ date ] </a>
+			<a href="thread.html#$sequence">[ thread ] </a>
+			<a href="subject.html#$sequence">[ subject ] </a>
+			<a href="author.html#$sequence">[ author ]</a>
+			</li>
+		</ul>
+	</nav>
+
+	<footer>
+		<hr>
+		<a href="$listurl">More information about the $listname mailing list</a>
+	</footer>
+</body>
+</html>
