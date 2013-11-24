@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
+	<meta name="robots" content="index,nofollow">
+	<title><MM-List-Name> Info Page</title>
+</head>
+
+<body>
+	<table cols="1" border="0" cellspacing="4" cellpadding="5">
+		<tr>
+			<td colspan="2" width="100%" bgcolor="#99CCFF"><h3 style="text-align:center; margin:0;"><MM-List-Name> -- <MM-List-Description></h3></td>
+		</tr>
+		<tr>
+			<td colspan="2">&nbsp;</td>
+		</tr>
+		<tr>
+			<td colspan="1" width="100%" bgcolor="#FFF0D0"><b>About <MM-List-Name></b></td>
+			<td colspan="1" width="100%" bgcolor="#FFF0D0"><MM-lang-form-start><MM-displang-box> <MM-list-langs><MM-form-end><MM-Subscribe-Form-Start></td>
+		</tr>
+		<tr>
+			<td colspan="2">
+				<p><MM-List-Info></p>
+				<p>To see the collection of prior postings to the list, visit the <MM-Archive><MM-List-Name> Archives</MM-Archive>. <MM-Restricted-List-Message></p>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2" width="100%" bgcolor="#FFF0D0"><b>Using <MM-List-Name></b></td>
+		</tr>
+		<tr>
+			<td colspan="2">
+				To post a message to all the list members, send email to <a href="mailto:<MM-Posting-Addr>"><MM-Posting-Addr></a>.
+				<p>You can subscribe to the list, or change your existing subscription, in the sections below.</p>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2" width="100%" bgcolor="#FFF0D0"><b>Subscribing to <MM-List-Name></b></td>
+		</tr>
+		<tr>
+			<td colspan="2">
+				<p>Subscribe to <MM-List-Name> by filling out the following form. <MM-List-Subscription-Msg></p>
+				<div style="margin-left: 2em">
+					<table border="0" cellspacing="2" cellpadding="2" width="70%">
+						<tr>
+							<td bgcolor="#DDDDDD" width="55%">Your email address:</td>
+							<td width="33%"><MM-Subscribe-Box></td>
+							<td width="12%">&nbsp;</td>
+						</tr>
+						<tr>
+							<td bgcolor="#DDDDDD" width="55%">Your name (optional):</td>
+							<td width="33%"><mm-fullname-box></td>
+							<td width="12%">&nbsp;</td>
+						</tr>
+						<tr>
+							<td colspan="3">
+								<small>You may enter a privacy password below. This provides only mild security, but should prevent others from messing with your subscription. <b>Do not use a valuable password</b> as it will occasionally be emailed back to you in cleartext.</small>
+								<p><small>If you choose not to enter a password, one will be automatically generated for you, and it will be sent to you once you've confirmed your subscription. You can always request a mail-back of your password when you edit your personal options.         <MM-Reminder></small></p>
+							</td>
+						</tr>
+						<tr>
+							<td bgcolor="#DDDDDD">Pick a password:</td>
+							<td><MM-New-Password-Box></td>
+							<td>&nbsp;</td>
+						</tr>
+						<tr>
+							<td bgcolor="#DDDDDD">Reenter password to confirm:</td>
+							<td><MM-Confirm-Password></td>
+							<td>&nbsp;</td>
+						</tr>
+						<tr>
+							<td bgcolor="#DDDDDD">Which language do you prefer to display your messages?</td>
+							<td><MM-list-langs></td>
+							<td>&nbsp;</td>
+						</tr>
+						<mm-digest-question-start>
+						<tr>
+							<td>Would you like to receive list mail batched in a daily digest?</td>
+							<td><MM-Undigest-Radio-Button>No <MM-Digest-Radio-Button> Yes</td>
+							<td>&nbsp;</td>
+						</tr>
+						<mm-digest-question-end>
+						<tr>
+							<td colspan="3"><center><MM-Subscribe-Button></center></td>
+						</tr>
+					</table><MM-Form-End>
+				</div>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2" width="100%" bgcolor="#FFF0D0"><a name="subscribers"><b><MM-List-Name> Subscribers</b></a></td>
+		</tr>
+		<tr>
+			<td colspan="2" width="100%">
+				<MM-Roster-Form-Start> <MM-Roster-Option> <MM-Form-End>
+				<p><MM-Options-Form-Start> <MM-Editing-Options> <MM-Form-End></p>
+			</td>
+		</tr>
+	</table>
+	<MM-Mailman-Footer>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
+	<meta name="robots" content="index,nofollow">
+	<title>%(listname)s %(who)s Authentication</title>
+</head>
+
+<body>
+	<form method="post" action="%(path)s">%(message)s
+		<table width="100%" border="0" cellspacing="4" cellpadding="5">
+			<tr>
+				<td colspan="2" width="100%" bgcolor="#99CCFF"><h3 style="text-align:center; margin:0;">%(listname)s %(who)s Authentication</h3></td>
+			</tr>
+			<tr>
+				<td><div align="right"><label for="adminpw">List %(who)s Password:</label></div></td>
+				<td><input type="password" name="adminpw" id="adminpw" size="30" required></td>
+			</tr>
+			<tr>
+				<td colspan="2" align="middle"><input type="submit" name="admlogin" value="Let me in..."></td>
+			</tr>
+		</table>
+
+		<p><strong><em>Important:</em></strong> From this point on, you must have cookies enabled in your browser, otherwise no administrative changes will take effect.</p>
+		<p>Session cookies are used in Mailman's administrative interface so that you don't need to re-authenticate with every administrative operation. This cookie will expire automatically when you exit your browser, or you can explicitly expire the cookie by hitting the <em>Logout</em> link under <em>Other Administrative Activities</em> (which you'll see once you successfully log in).</p>
+	</form>
+</body>
+</html>
